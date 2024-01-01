@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fake OS - Windows</title>
+    <link rel="stylesheet" href="./stylings/desktop.css">
+    <link rel="stylesheet" href="./stylings/taskbar.css">
+    <script defer src="./javascript/app-functions.js"></script>
+    <script defer src="./javascript/interface-functions.js"></script>
+    <script src="./javascript/app-objects.js"></script>
+</head>
+<body>
+    <div class="context-menu">
+
+    </div>
+    <main id="desktop">
+
+        <div id="modal1">
+            
+        </div>
+
+
+    </main>
+    <footer id="taskbar">
+
+        <div id="menu">
+            <div id="controls">
+                <div class="menuItem">
+                    <img src="./images/settings.png" alt="settings">Settings
+                </div>
+                <div class="menuItem"  id="power">
+                    <img src="./images/power.png" alt="power">Power
+                </div>
+            </div>
+            <div id="menu-apps">
+                <p>M</p>
+                <div class="menuItem" id="musical-doots">
+                    <img src="./images/trumpet-48.png" alt="musical-doots" id="musical-doots">
+                    Musical Doots
+                </div>
+                <p>N</p>
+                <div class="menuItem" id="notepad">
+                    <img src="./images/notepad-48.png" alt="notepad" id="notepad">
+                    Notepad
+                </div>
+                <p>R</p>
+                <div class="menuItem" id ="recycle-bin">
+                    <img src="./images/recycle-bin-48.png" alt="recycle-bin" id ="recycle-bin">
+                    Recycle Bin
+                </div>
+            </div>
+        </div>
+    
+        <div id="main-controls">
+            <div id="start-menu">
+                <img src="./images/windows-black.png" alt="start">
+            </div>
+            <input type="text" placeholder="Type here to search (currently out of scope)">
+            <div id="taskbar-apps">
+                
+            </div>
+        </div>
+        <!-- right aligned -->
+            <!-- time -->
+            <!--  -->
+        <div id="date-time">
+            <div id="time"></div>
+            <div id="date"></div>
+        </div>
+    </footer>
+</body>
+</html>

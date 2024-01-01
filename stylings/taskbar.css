@@ -1,0 +1,93 @@
+footer {
+  display: flex;
+  background-color: rgb(212, 225, 237);
+  height: 5vh;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+#start-menu {
+  width: 56px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+#date-time {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-right: 8px;
+}
+
+#main-controls {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+input {
+  border: 1px solid rgb(182, 182, 182);
+  width: 300px;
+  height: 92%;
+  padding-left: 10px;
+}
+
+#menu {
+  display: none;
+  position: absolute;
+  top: 50vh;
+  height: 45vh;
+  width: 30vw;
+  background-color: rgb(208, 208, 208);
+  color: black;
+}
+#menu img {
+  height: 25px;
+  width: 25px;
+  margin-right: 10px;
+}
+#menu > #controls {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 40%;
+  justify-content: end;
+  box-shadow: 1px 0 5px rgba(0, 0, 0, 0.5);
+}
+#menu > #controls :hover {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+#menu .menuItem {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: start;
+  padding: 10px;
+}
+#menu #menu-apps {
+  padding-left: 15px;
+}
+#menu #menu-apps :hover {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+#taskbar-apps {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+#taskbar-apps > .app > img {
+  height: 38px;
+  padding: 0px 7px 0px 7px;
+}
+#taskbar-apps :hover {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.bottom-border {
+  border-bottom: 2px solid rgb(0, 120, 215);
+}
+
+/*# sourceMappingURL=taskbar.css.map */
