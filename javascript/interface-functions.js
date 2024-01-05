@@ -193,7 +193,7 @@ for (i = 0; i< allMenuApps.length; ++i){
 // const onRightClick = () => {
     // Gives a dropdown of options which will in turn be functions
         // open
-        // pin to taskbar
+        // pin to taskbar/ desktop
         // cut (and then paste)
         // copy
         // delete
